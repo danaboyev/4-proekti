@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: linear-gradient(100.72deg, #122E99 -12.05%, #2370C8 104.99%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container{
+    width: 1361px;
+    margin: 0 auto;
+}
+.head{
+    display: flex;
+    align-items: center;
+}
+.navigatsiya{
+    display: flex;
+}
+h1{
+    margin-right: 195px;
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+.navbar{
+    margin-right: 87px;
+}
+.menu{
+    display: none;
+}
+.nav_list{
+    list-style: none;
+    margin-right: 15px;
+}
+.nav_link{
+    font-family: Roboto;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.search{
+    width: 205.85px;
+    height: 30.21px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+.aaa{
+    display: flex;
+    margin-top: 157px; 
+}
+
+h2{
+    width: 474.98px;
+    font-family: Roboto;    
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 85px;
+    color: #FFFFFF;
+}
+.text_1{
+    font-family: Roboto;
+    width: 452.51px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #fafafa;
+    margin-top: 10px;
+}
+.down{
+    font-family: Roboto;
+    color: #FFFFFF;
+    background: #2370C8;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 8px 15px;
+    position: relative;
+    top: 15px;
+}
+.image{
+    margin-left: 150px;
+    width: 350px;
+    height: 350px;
+    position: relative;
+    bottom: 50px;
+}
+.bbb{
+    display: flex;
+    margin-top: 20px;
+}
+.image2{
+    width: 500px;
+    height: 300px;
+    margin-right: 130px;
+}
+.card{
+    width: 450px;
+}
+.down1{
+    font-family: Roboto;
+    text-decoration: none;
+    color: #2370C8;
+    font-weight: 500;
+    line-height: 30px;
+    position: relative;
+    bottom: 10px;
+}
+h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 56px;
+    color: #262A4E;
+}
+.text-2{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    color: #646464;
+    margin-bottom: 15px;
+}
+.down2{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 80px;
+    color: #FFFFFF;
+    width: 162.82px;
+    height: 44.87px;
+    background: #2370C8;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 14px 40px;
+}
+.down3{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2370C8;
+    text-decoration:  none;
+}
+h4{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    color: #262A4E;
+    
+
+}
+.ccc{
+    margin-top: 31px;
+}
+
+.image3{
+    width: 400px;
+    height: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+@media(max-width: 390px){
+    h1{
+        margin-right: 180px;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+   .navbar{
+       display: none;
+   } 
+   .menu{
+       display: inline-block;
+       width: 30px;
+       height: 20px;
+       margin-right: 20px;
+   }
+   .search{
+       width: 70px;
+       height: 30px;
+       background-color: #FFFFFF;
+   }
+   .aaa{
+       display: inline-block;
+       flex-direction: column-reverse;
+   }
+   h2{
+       width: 390px;
+       /* font-weight: 500; */
+       font-size: 42px;
+       line-height: 85px;
+       color: #FFFFFF;
+       text-align: center; 
+   }
+   .text_1{
+       width:  300px;
+       text-align: center;
+       /* display: block; */
+       /* margin: 0 auto; */
+   }
+   .down{
+      /* margin-top: 50px; */
+      margin-left: 150px;
+      position: relative;
+      top: 25px;
+   }
+   .image{
+       width: 250px;
+       height: 250px;
+       margin-top: 100px;
+       margin-left: 70px;
+   }
+   .bbb{
+       display: inline-block;
+   }
+   .image2{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+   }
+   .down1{
+       margin-left: 140px;
+   }
+   h3{
+       font-size: 30px;
+       width: 390px;
+       text-align: center;
+   }
+   .text-2{
+       width: 350px;
+       text-align: center;
+       font-size: 14px;
+       text-align: center;
+       margin-left: 10px;
+   }
+   .down2{
+       margin-left: 130px;
+       
+   }
+   .down3{
+        margin-left: 130px;
+        position: relative;
+        top: 30px;
+
+   }
+   h4{
+       margin-top: 40px;
+       width: 350px;
+       font-size: 25px;
+       display: block;
+       margin: 0 auto;
+   }
+ 
+   .image3{
+       width: 250px;
+       height: 150px;
+   }
+   .cardbar{
+       display: block;
+       margin: 0 auto;
+   }
+   .ccc{
+        flex-direction: column;
+        display: flex;
+   }
+
+}
